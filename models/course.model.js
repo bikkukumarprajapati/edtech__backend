@@ -16,6 +16,10 @@ const courseSchema = new mongoose.Schema({
     image:{
         type: String,
         required:true,
+    },
+    createAt: {
+        type: Date.now(),
+        required:true
     }
 })
 
